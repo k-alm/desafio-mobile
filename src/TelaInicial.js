@@ -5,6 +5,7 @@ const TelaInicial = ({ navigation }) => {
     return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
           <Text style={{ marginBottom: 20, fontSize: 24 }}>Tela Inicial</Text>
+          <Text style={{ marginBottom: 20, fontSize: 20 }}>Integrantes: Kauan de Almeida RM: 552075</Text>
           <Button
             title="Ir para Lista de Dados"
             onPress={() => navigation.navigate('Lista Dados')}
